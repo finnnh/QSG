@@ -19,8 +19,8 @@ public class DatabaseConnector {
     private final int port = 27017;
     private final String databaseName = "QSG";
 
-    String username = "finn"; // Replace with your MongoDB username
-    String password = "2FH4u8Zw5r2ps831BE1u";
+    String username = "";
+    String password = "";
 
     public DatabaseConnector() {
         ConnectionString connectionString = new ConnectionString("mongodb://" + username + ":" + password + "@" + hostname + ":" + port + "/?authSource=admin");

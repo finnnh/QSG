@@ -1,10 +1,8 @@
 package de.finnxd.qsg.gameloop.gamestates;
 
-import de.finnxd.qsg.utils.ItemBuilder;
 import de.finnxd.qsg.QSG;
 import de.finnxd.qsg.gameloop.GameState;
 import org.bson.Document;
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 
 public class EndState implements GameState {
